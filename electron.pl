@@ -1,5 +1,4 @@
 
-
 use PDL;use PDL::Graphics::TriD;
 for$c(1..99) {
  $n=6.28*$c;$v=$c*rvals(zeros(90000)*$c);
@@ -25,7 +24,7 @@ $zzz = $yy*$zz;
 points3d[$xx,$yy,$zz],[$g,$b,$r]; ## electron 
 
 
- points3d[$xxx,$yyy,$zzz],[$g*$y,$r*$g,$b*$r]; ## Hbar geometry
+ points3d[$xxx,$yyy,$zzz],[$g*$b,$r*$g,$b*$r]; ## Hbar geometry
 
 
 
