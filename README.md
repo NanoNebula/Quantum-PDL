@@ -11,8 +11,10 @@ is my goal to determine a way to find the "momentum" from the "position" useing 
 
 Particles can be thought of as being made by photons according to E=mc**2, using the Photon Positions
 and there relation to each other there distance and values to describe measurable dimensions and
-Unmeasurable dimensions, of the particle in the matrix, so we want to determine not just the 
+Unmeasurable dimensions, of the particle in the matrix, we want to determine not just the 
 momentum, yet everything (every dimension) from the position.
+which we can view here -> http://www.academia.edu/983557/Dimensional_Analysis_of_a_Electron
+
 
 The mathematics for this can be daunting because they have not yet touched the thoughts of man
 from this perspective... I have found some success nonetheless.
