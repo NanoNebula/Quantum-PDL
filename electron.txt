@@ -1,4 +1,3 @@
-
 What we want to achive here is a discussion about the electron and how to get the 
 dimensions of [Mass] [Length] [Time] [Current] from the "Photon Positions" that 
 make up the electron, with these "Matrix" values we can determine any dimension. 
@@ -10,9 +9,9 @@ Accuracy.
 One of the main formula's for the [Length] of the x,y,z matrix particle is 
  $Length = sqrt($x**2+$y**2+$z**2);  
  
- The Length of $x,$y is -> sqrt($x**2+%y**2).
- The Length of $y,$z is -> sqrt($y**2+%z**2).
- The Length of $x,$z is -> sqrt($x**2+%z**2).
+ The Length of $x,$y is -> sqrt($x**2+$y**2).
+ The Length of $y,$z is -> sqrt($y**2+$z**2).
+ The Length of $x,$z is -> sqrt($x**2+$z**2).
  
  With that view we get a more defined Matrix Value of the ([Volume] = [Length]**3) of the particle 
  [Density] = [Mass]/[Volume] 
