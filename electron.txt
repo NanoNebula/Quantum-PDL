@@ -13,5 +13,12 @@ One of the main formula's for the [Length] of the x,y,z matrix particle is
  The Length of $y,$z is -> sqrt($y**2+$z**2).
  The Length of $x,$z is -> sqrt($x**2+$z**2).
  
- With that view we get a more defined Matrix Value of the ([Volume] = [Length]**3) of the particle 
- [Density] = [Mass]/[Volume] 
+ With that view we get a more defined Matrix value of the ([Volume] = [Length]**3) of the particle 
+ [Density] = [Mass]/[Volume], the [Area] = [Length]**2.
+ 
+ One thing I have been struggling here is with getting the [Mass] matrix of the particle 
+ from the photon positions, as I have not yet found a definite formula for how to do this.
+ 
+ I have deduced that I might be able to do this from a ratio of the [Length] matrix,
+ and then Summing all the photon [Masses] Matrix, and compareing there porportions. which should 
+ match experimental results, if indeed the electron is sphereical. new tests seem to confirm this.
