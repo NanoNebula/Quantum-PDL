@@ -1,8 +1,7 @@
 
-
 What we want to achive here is a discussion about the electron and how to get the 
 dimensions of [Mass] [Length] [Time] [Current] from the "Photon Positions" that 
-make up the electron with these "Matrix" values we can determine any dimension. 
+make up the electron, with these "Matrix" values we can determine any dimension. 
 
 There is a certain amount of points needed to do this, I would say at least 10,000 
 photon point positions in a matrix, with the more point positions the better the 
