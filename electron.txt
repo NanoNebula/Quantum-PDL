@@ -28,6 +28,32 @@ One of the main formula's for the [Length] of the x,y,z matrix particle is
  For the experimental results for all dimensions go to 
  http://www.academia.edu/983557/Dimensional_Analysis_of_a_Electron
  
+ Looking at the ElectronData.pl simulation we can get a sum value of the length dimensions
+ as stated above we see that [Length]**3 is greater then $L1*$L2*$L3.
+ 
+ notice a contrast here from the formulas and there values 
+ 
+ $length = sum(sqrt($xx**2+$yy**2+$zz**2))
+ $L1 = sum(sqrt($xx**2+$yy**2))
+ $L2 = sum(sqrt($zz**2+$xx**2))
+ $L3 = sum(sqrt($yy**2+$zz**2))
+ $length**3
+ $L1*$L2*$L3
+ sqrt($L1*$L2*$L3)
+ sqrt($L1+$L2+$L3)
+ 
+ 80013.5724825259
+62543.6209364533
+57306.1675477684
+67226.9377231637
+512260635877946
+240950435255145
+15522578.2412312
+432.523671268273
+
+Those are the values for for the above formula's. 
+
+ 
  
  
  
