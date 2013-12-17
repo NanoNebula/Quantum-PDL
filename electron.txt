@@ -23,4 +23,11 @@ One of the main formula's for the [Length] of the x,y,z matrix particle is
  and then Summing all the photon [Masses] Matrix, and compareing there porportions. which should 
  match experimental results, if indeed the electron is sphereical. new tests seem to confirm this..
  
- If we take  look at the electron.pl code we see the electron geometry and the Hbar geometry. 
+ If we take a look at the electron.pl code we see the electron geometry and the Hbar geometry. 
+ 
+ For the experimental results for all dimensions go to 
+ http://www.academia.edu/983557/Dimensional_Analysis_of_a_Electron
+ 
+ 
+ 
+ 
