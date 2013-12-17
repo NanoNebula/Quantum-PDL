@@ -1,6 +1,5 @@
 
 
-
  
 use PDL;use PDL::Graphics::TriD;
 for$c(1..99) {
@@ -30,7 +29,10 @@ print $L2 = sum(sqrt($zz**2+$xx**2)),"\n";
 print $L3 = sum(sqrt($yy**2+$zz**2)),"\n";
 print $length**3,"\n";
 print $L1*$L2*$L3,"\n";
+print sqrt($L1*$L2*$L3),"\n";
+print sqrt($L1+$L2+$L3),"\n";
 print "\n";
+
 
                       #x  y  z
 points3d[$xx,$yy,$zz],[$g,$b,$r]; ## electron 
