@@ -19,3 +19,8 @@ which we can view here -> http://www.academia.edu/983557/Dimensional_Analysis_of
 The mathematics for this can be daunting because they have not yet touched the thoughts of man
 from this perspective... I have found some success nonetheless.
 
+I have I blog here for this disscussion, I hope to git this refined and could use your help 
+to make this code a real world contender.
+
+BLOG http://mrbakermark.wordpress.com/2013/12/22/spherical-harmonics/
+
