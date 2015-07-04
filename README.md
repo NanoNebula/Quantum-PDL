@@ -13,7 +13,7 @@ Particles can be thought of as being made by photons according to E=mc**2, using
 and there relation to each other there distance and values to describe measurable dimensions and
 Unmeasurable dimensions, of the particle in the matrix, we want to determine not just the 
 momentum, yet everything (every dimension) from the position.
-which we can view here -> http://www.academia.edu/983557/Dimensional_Analysis_of_a_Electron
+
 
 
 The mathematics for this can be daunting because they have not yet touched the thoughts of man
@@ -23,4 +23,6 @@ I have I blog here for this disscussion, I hope to git this refined and could us
 to make this code a real world contender.
 
 BLOG http://mrbakermark.wordpress.com/2013/12/22/spherical-harmonics/
+
+www.nanonebula.com
 
