@@ -27,6 +27,6 @@ points3d[$xx,$yy,$zz],[$g,$b,$r]; ## electron
  points3d[$xxx,$yyy,$zzz],[$g*$b,$r*$g,$b*$r]; ## Hbar geometry
 
 
-
+### sp3 carbon geometry comming soon
 
 }
