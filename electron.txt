@@ -25,9 +25,6 @@ One of the main formula's for the [Length] of the x,y,z matrix particle is
  
  If we take a look at the electron.pl code we see the electron geometry and the Hbar geometry. 
  
- For the experimental results for all dimensions go to 
- http://www.academia.edu/983557/Dimensional_Analysis_of_a_Electron
- 
  Looking at the ElectronData.pl simulation we can get a sum value of the length dimensions
  as stated above we see that [Length]**3 is greater then $L1*$L2*$L3.
  
@@ -52,6 +49,14 @@ One of the main formula's for the [Length] of the x,y,z matrix particle is
 432.523671268273
 
 Those are the values for for the above formula's. 
+
+working on fractal scaling right now ...
+making electron = -1 
+and a proton [charge] = +1
+
+in the code we have our replication asset in that adding -2 [charge] of energy to electron will give us a [quark]
+ we need to focus on this  mostly the mathematical proofs, then expand on the experiment ...
+
 
  
  
