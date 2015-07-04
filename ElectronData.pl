@@ -44,4 +44,6 @@ points3d[$xx,$yy,$zz],[$g,$b,$r]; ## electron
 
 }
 
-
+### Working on the Extra-Dimensional Telemetry and the Quantum Fluctuations 
+### PDL has everything down for astrophysics- I think that the engine could use 
+### some fine tunning for the 4 and 6 dimensional frameworks ...
