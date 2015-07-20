@@ -26,7 +26,7 @@ use PDL::Math; keeptwiddling3d;
  $cy=-1**$t*sin($t*$c);
  $cx=-1**$c*bessj0(rvals($t,{Centre=>[0]}))*$c;
  
- $w=$cz-$cy-$cx
+ $w=$cz-$cy-$cx;
  $g=sin($w);
  $r=cos($cy+$c+$cz);
  $b=cos($w);
@@ -53,7 +53,7 @@ points3d[$x,$y,$z],[$g,$b,$r]; ## electron
 
 
 
-}
+} } }
 
 ### Working on the Extra-Dimensional Telemetry and the Quantum Fluctuations 
 ### PDL has everything down for astrophysics- I think that the engine could use 
