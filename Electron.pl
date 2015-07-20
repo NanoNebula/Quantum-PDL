@@ -48,6 +48,23 @@ $zz = $y*$z;
    #    4Dimensional  6Dimensional
 points3d[$x,$y,$z],[$g,$b,$r]; ## electron 
 
+$light = 299792458;
+  $radius = sum(sqrt(($x**2)+($y**2)+($z**2)));
+  $length = 2*(($radius*2)**-4); ##Wrong !!!
+  $mass = (($radius**3)**-3);
+  $energy = $mass*($light**2);
+  $time = ($energy/($mass*$radius*$radius));
+  $time = (($time)**-2)+(($time)**-2)+(($time)**-2);
+  $length2 = sqrt($energy/($mass/($time*$time)));  ## Right !!!
+
+ print "[",($radius*2)**-4,"]","  Radius Meters","\n";
+ print "[",$time,"]","  Time Seconds","\n";  
+ print "[",$length,"]","  Length Meters<- wrong Length","\n";
+ print "[",$length2,"]","  Length Meters<- right Length","\n";
+ print "[",$mass,"]","    Mass KiloGrams","\n";
+ print "[",$energy,"]","   "," Energy Joule Seconds","\n";
+ print "\n";
+
        #  4Dimensional     6Dimensional
  points3d[$xx,$yy,$zz],[$g*$b,$r*$g,$b*$r]; ## Hbar geometry
 
