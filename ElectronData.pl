@@ -9,8 +9,8 @@ use PDL::Math; keeptwiddling3d;
 ###           not 2 [angles] and 1 [length] like the Spherical Coordinates system
 ###           not 3 [lengths] like the  Cartesian coordinate system
 ###           3 Transendental [angles] in a 3 [length]  Cartesian coordinate system
-###           that describes a dynamic vector geometry of a photon(s) (String(s)) 
-###           that make up a particle 
+###           that describes a dynamic vector geometry of a "photon(s)/(String(s))" 
+###           that make up a particle. 
 
 
  for $c(400..1999){
