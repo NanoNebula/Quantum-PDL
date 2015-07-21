@@ -36,7 +36,7 @@ use PDL::Math; keeptwiddling3d;
  $i=($cz-$cx-$cy);
   $q=$c*($i*$n);
 
-
+### altitude longitude latitude 
 $x = $b*sin($q);
 $y = $r*cos($q);
 $z = $g*sin($q);
