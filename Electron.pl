@@ -5,7 +5,7 @@ use PDL::Graphics::TriD;
 use PDL::Math; keeptwiddling3d;
 ### QPD  Quantum Photonic Dynamics
 ### QPD::Math uses 4 transcendental [angle] 4Dimensional equations
-###           and  3-6 transcendental [angle] 6Dimensional equations
+###           and  6 transcendental [angle] 6Dimensional equations
 ###           To describe the geometry of the electron 
 ###           not 2 [angles] and 1 [length] like the Spherical Coordinates system
 ###           not 3 [lengths] like the  Cartesian coordinate system
