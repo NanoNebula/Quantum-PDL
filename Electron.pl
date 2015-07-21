@@ -50,7 +50,7 @@ points3d[$x,$y,$z],[$g,$b,$r]; ## electron
 
 $light = 299792458;
   $radius = sum(sqrt(($x**2)+($y**2)+($z**2)));
-  $length = 2*(($radius*2)**-4); ##Wrong !!!
+  $length = 2*(($radius*2)**-4); ## Wrong !!!
   $mass = (($radius**3)**-3);
   $energy = $mass*($light**2);
   $time = ($energy/($mass*$radius*$radius));
