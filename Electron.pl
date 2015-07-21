@@ -4,11 +4,12 @@ use PDL;
 use PDL::Graphics::TriD;
 use PDL::Math; keeptwiddling3d;
 ### QPD  Quantum Photonic Dynamics
-### QPD::Math uses 3 transcendental [angle] equations
+### QPD::Math uses 4 transcendental [angle] 4Dimensional equations
+###           and  3-6 transcendental [angle] 6Dimensional equations
 ###           To describe the geometry of the electron 
 ###           not 2 [angles] and 1 [length] like the Spherical Coordinates system
 ###           not 3 [lengths] like the  Cartesian coordinate system
-###           3 Transendental [angles] in a 3 [length]  Cartesian coordinate system
+###           10 Transendental [angles] in a 3 [length]  Cartesian coordinate system
 ###           that describes a dynamic vector geometry of a "photon(s)/(String(s))" 
 ###           that make up a particle. 
 
@@ -21,11 +22,13 @@ use PDL::Math; keeptwiddling3d;
 
  $photons = 2444; ### [Density]
 
+ ### 4Dimensional Geometry
  $t=(-1**.5)*rvals(exp(zeros($photons)),{Centre=>[0]});
  $cz=-1**$t*$c;
  $cy=-1**$t*sin($t*$c);
  $cx=-1**$c*bessj0(rvals($t,{Centre=>[0]}))*$c;
  
+ ### 6Dimensional Geometry
  $w=$cz-$cy-$cx;
  $g=sin($w);
  $r=cos($cy+$c+$cz);
@@ -46,7 +49,7 @@ $zz = $y*$z;
 
 
    #    4Dimensional  6Dimensional
-points3d[$x,$y,$z],[$g,$b,$r]; ## electron 
+points3d[$x,$y,$z],   [$g,$b,$r]; ## electron 
 
 $light = 299792458;
   $radius = sum(sqrt(($x**2)+($y**2)+($z**2)));
