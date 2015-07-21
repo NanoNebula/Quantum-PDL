@@ -65,8 +65,8 @@ $light = 299792458;
  print "[",$energy,"]","   "," Energy Joule Seconds","\n";
  print "\n";
 
-       #  4Dimensional     6Dimensional
- points3d[$xx,$yy,$zz],[$g*$b,$r*$g,$b*$r]; ## Hbar geometry
+        #  4Dimensional     6Dimensional
+ #points3d[$xx,$yy,$zz],[$g*$b,$r*$g,$b*$r]; ## Hbar geometry
 
 
 
