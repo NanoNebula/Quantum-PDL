@@ -15,7 +15,7 @@ use PDL::Math; keeptwiddling3d;
 ###           that make up a particle. 
 
 
- for $c(400..1999){
+ for $c(400..40000){
  for $phase(1..360) {
  $phase = $phase*0.0000001;
  $frequency = ($c**-1);
