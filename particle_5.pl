@@ -1,7 +1,7 @@
 
 
 
-## 10th Dimensional particle_6.pl
+## 10th Dimensional particle_5.pl
 
 use PDL;
 use PDL::Graphics::TriD;
