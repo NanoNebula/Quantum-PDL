@@ -62,13 +62,15 @@ $zz = $y*$z;
    #    4Dimensional  6Dimensional
   
  +points3d[$x,$y,$z],   [$b,$g,$r]; ## electron
+ #+points3d[$x,$y,$z],   [$b,$r,$g]; ## positron
  hold3d(); 
  +points3d[$x*$b,$y*$g,$z*$r],   [$b,$r,$g]; ## 6th Dimensional electron 
+ #+points3d[$x*$b,$y*$g,$z*$r],   [$b,$g,$r]; ## 6th Dimensional positron 
  #release3d();
 
   +points3d[$x,$z,$y],   [$b,$g,$r]; ## electron
  hold3d(); 
- +points3d[$x*$b,$z*$r,$y*$g],   [$b,$r,$g]; ## 6th Dimensional electron 
+ +points3d[$x*$b,$z*$r,$y*$g],   [$b,$r,$g]; ## b r g = antimatter color 
  #release3d();
 
     +points3d[$y,$x,$z],   [$b,$g,$r]; ## electron
