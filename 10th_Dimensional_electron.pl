@@ -70,7 +70,7 @@ $zz = $y*$z;
 
   +points3d[$x,$z,$y],   [$b,$g,$r]; ## electron
  hold3d(); 
- +points3d[$x*$b,$z*$r,$y*$g],   [$b,$r,$g]; ## b r g = antimatter color 
+ +points3d[$x*$b,$z*$r,$y*$g],   [$b,$r,$g]; ## b r g = antimatter color ; anitphoton color charge ;}
  #release3d();
 
     +points3d[$y,$x,$z],   [$b,$g,$r]; ## electron
