@@ -35,9 +35,9 @@ $PDL::BIGPDL=1; ## remember this can crash the computer if you dont have enough 
  ### 4Dimensional Geometry
  $t=(-1**.5)*rvals(exp(zeros($photons)),{Centre=>[0]});
                   ### change to the following to see possible 10th Dimensional Quark
- $cz= $t*$c;  ###    $t*$c; 
- $cy= $t*sin($t*$c);  ###   $t*sin($t*$c); 
- $cx= $c*bessj0(rvals($t,{Centre=>[0]}))*$c;  ### $c*bessj0(rvals($t,{Centre=>[0]}))*$c;
+ $cz= -1**$t*$c;  ###    $t*$c; 
+ $cy= -1**$t*sin($t*$c);  ###   $t*sin($t*$c); 
+ $cx= -1**$c*bessj0(rvals($t,{Centre=>[0]}))*$c;  ### $c*bessj0(rvals($t,{Centre=>[0]}))*$c;
  
  ### 6Dimensional Geometry
  $w=$cz-$cy-$cx;
