@@ -34,12 +34,13 @@ $PDL::BIGPDL=1; ## remember this can crash the computer if you dont have enough 
 
  ### 4Dimensional Geometry
  $t=(-1**.5)*rvals(exp(zeros($photons)),{Centre=>[0]});
-                  ### change to the following to see possible 10th Dimensional Quark
+                  
                   ### the idea is that the electron is -1 charge
                   ### and if you add -2 charge to it, it will be -3
                   ### and (-3)**-1 power is -(1/3) down quark charge
                   ### a hidden replication theory of matter in QPD; which our earth might be using
                   ### to replicate matter at its core ...
+                  ### change to the following to see possible 10th Dimensional Quark
  $cz= -1**$t*$c;  ###    $t*$c; 
  $cy= -1**$t*sin($t*$c);  ###   $t*sin($t*$c); 
  $cx= -1**$c*bessj0(rvals($t,{Centre=>[0]}))*$c;  ### $c*bessj0(rvals($t,{Centre=>[0]}))*$c;
