@@ -62,6 +62,9 @@ $light = 299792458;
   $time = ($energy/($mass*$radius*$radius));
   $time = (($time)**-2)+(($time)**-2)+(($time)**-2);
   $length2 = sqrt($energy/($mass/($time*$time)));  ## Right !!!
+  $velocity = $length2*($time**-1);
+  $acceleration = $length2*($time**-2);
+  $force = $mass*$acceleration;
 
  print "[",($radius*2)**-4,"]","  Radius Meters","\n";
  print "[",$time,"]","  Time Seconds","\n";  
@@ -69,6 +72,9 @@ $light = 299792458;
  print "[",$length2,"]","  Length Meters<- right Length","\n";
  print "[",$mass,"]","    Mass KiloGrams","\n";
  print "[",$energy,"]","   "," Energy Joule Seconds","\n";
+ print "[".$velocity,"]","    "," Velocity Meters","\n";
+ print "[".$acceleration,"]","    "," Acceleration Meters per second/per second","\n";
+ print "[",$force,"]","   ","  Force","\n"; 
  print "\n";
 
         #  4Dimensional     6Dimensional
