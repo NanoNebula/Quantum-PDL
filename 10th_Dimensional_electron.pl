@@ -6,7 +6,7 @@
 use PDL;
 use PDL::Graphics::TriD;
 use PDL::Math; 
- keeptwiddling3d; ## if you change to nokeeptwiddling3d you dont have to press q in the GLUT screen to see animation
+ nokeeptwiddling3d; ## if you change to nokeeptwiddling3d you dont have to press q in the GLUT screen to see animation
   ## change to keeptwiddling to stop and view each step of the animation by pressing q in the GLUT box
 
 $PDL::BIGPDL=1; ## remember this can crash the computer if you dont have enough swap in linux or pagefile in windows
