@@ -1,10 +1,12 @@
 
+#### daily build sat jul 25, 9:31 pm
+
 ## 10th Dimensional electron
 
 use PDL;
 use PDL::Graphics::TriD;
 use PDL::Math; 
- nokeeptwiddling3d; ## if you change to nokeeptwiddling3d you dont have to press q in the GLUT screen to see animation
+ keeptwiddling3d; ## if you change to nokeeptwiddling3d you dont have to press q in the GLUT screen to see animation
   ## change to keeptwiddling to stop and view each step of the animation by pressing q in the GLUT box
 
 $PDL::BIGPDL=1; ## remember this can crash the computer if you dont have enough swap in linux or pagefile in windows
@@ -33,9 +35,9 @@ $PDL::BIGPDL=1; ## remember this can crash the computer if you dont have enough 
  ### 4Dimensional Geometry
  $t=(-1**.5)*rvals(exp(zeros($photons)),{Centre=>[0]});
                   ### change to the following to see possible 10th Dimensional Quark
- $cz= -1**$t*$c;  ###    $t*$c; 
- $cy= -1**$t*sin($t*$c);  ###   $t*sin($t*$c); 
- $cx= -1**$c*bessj0(rvals($t,{Centre=>[0]}))*$c;  ### $c*bessj0(rvals($t,{Centre=>[0]}))*$c;
+ $cz= $t*$c;  ###    $t*$c; 
+ $cy= $t*sin($t*$c);  ###   $t*sin($t*$c); 
+ $cx= $c*bessj0(rvals($t,{Centre=>[0]}))*$c;  ### $c*bessj0(rvals($t,{Centre=>[0]}))*$c;
  
  ### 6Dimensional Geometry
  $w=$cz-$cy-$cx;
@@ -61,32 +63,32 @@ $zz = $y*$z;
   
  +points3d[$x,$y,$z],   [$b,$g,$r]; ## electron
  hold3d(); 
- +points3d[$x*$b,$y*$g,$z*$r],   [$b,$g,$r]; ## 6th Dimensional electron 
+ +points3d[$x*$b,$y*$g,$z*$r],   [$b,$r,$g]; ## 6th Dimensional electron 
  #release3d();
 
   +points3d[$x,$z,$y],   [$b,$g,$r]; ## electron
  hold3d(); 
- +points3d[$x*$b,$z*$r,$y*$g],   [$b,$g,$r]; ## 6th Dimensional electron 
+ +points3d[$x*$b,$z*$r,$y*$g],   [$b,$r,$g]; ## 6th Dimensional electron 
  #release3d();
 
     +points3d[$y,$x,$z],   [$b,$g,$r]; ## electron
  hold3d(); 
- +points3d[$y*$g,$x*$b,$z*$r],   [$b,$g,$r]; ## 6th Dimensional electron 
+ +points3d[$y*$g,$x*$b,$z*$r],   [$b,$r,$g]; ## 6th Dimensional electron 
  #release3d();  
 
   +points3d[$y,$z,$x],   [$b,$g,$r]; ## electron
  hold3d(); 
- +points3d[$y*$g,$z*$r,$x*$b],   [$b,$g,$r]; ## 6th Dimensional electron 
+ +points3d[$y*$g,$z*$r,$x*$b],   [$b,$r,$g]; ## 6th Dimensional electron 
  #release3d();  
 
   +points3d[$z,$x,$y],   [$b,$g,$r]; ## electron
  hold3d(); 
- +points3d[$z*$r,$x*$b,$y*$g],   [$b,$g,$r]; ## 6th Dimensional electron 
+ +points3d[$z*$r,$x*$b,$y*$g],   [$b,$r,$g]; ## 6th Dimensional electron 
  #release3d(); 
   
  +points3d[$z,$y,$x],   [$b,$g,$r]; ## electron
  hold3d(); 
- +points3d[$z*$r,$y*$g,$x*$b],   [$b,$g,$r]; ## 6th Dimensional electron 
+ +points3d[$z*$r,$y*$g,$x*$b],   [$b,$r,$g]; ## 6th Dimensional electron 
   release3d(); 
   release3d(); 
   release3d(); 
