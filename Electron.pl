@@ -3,6 +3,7 @@
 use PDL;
 use PDL::Graphics::TriD;
 use PDL::Math; keeptwiddling3d;
+$PDL::BIGPDL=1; ## remember this can crash the computer if you dont have enough swap in linux or pagefile in windows
 ### QPD  Quantum Photonic Dynamics
 ### QPD::Math uses 4 transcendental [angle] 4Dimensional equations
 ###           and  6 transcendental [angle] 6Dimensional equations
