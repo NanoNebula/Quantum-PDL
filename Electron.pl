@@ -15,9 +15,9 @@ use PDL::Math; keeptwiddling3d;
 
 
  for $c(400..1999){
- for $frequency (1..20) {
  for $phase(1..360) {
  $phase = $phase*0.0000001;
+ $frequency = ($c**-1);
  $n=6.28*$c*$frequency+($phase);
 
  $photons = 2444; ### [Density]
@@ -49,7 +49,8 @@ $zz = $y*$z;
 
 
    #    4Dimensional  6Dimensional
- +points3d[$x,$y,$z],   [$g,$b,$r]; ## electron 
+ +points3d[$x,$y,$z],   [$b,$g,$r]; ## electron 
+#+points3d[$x*$b,$y*$g,$z*$r],   [$b,$g,$r]; ## 6 Dimensional electron 
 
 $light = 299792458;
   $radius = sum(sqrt(($x**2)+($y**2)+($z**2)));
@@ -73,7 +74,7 @@ $light = 299792458;
 
 
 
-} } }
+} } 
 
 ### Working on the Extra-Dimensional Telemetry and the Quantum Fluctuations 
 ### PDL has everything down for astrophysics- I think that the engine could use 
