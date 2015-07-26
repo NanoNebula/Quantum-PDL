@@ -1,5 +1,5 @@
 
-#### daily build sat jul 25, 9:31 pm
+
 
 ## 10th Dimensional electron
 
