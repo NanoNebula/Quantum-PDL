@@ -39,9 +39,9 @@ $PDL::BIGPDL=1; ## remember this can crash the computer if you dont have enough 
   $q=$c*($i*$n);
 
 ### altitude longitude latitude 
-$x = $b*sin($q);
-$y = $r*cos($q);
-$z = $g*sin($q);
+$x = $b*sin($q);  ### cos   change the spin of the electron here
+$y = $r*cos($q);  ### sin
+$z = $g*sin($q);  ### cos
 
 $xx = $x*$y;
 $yy = $z*$x;
