@@ -50,7 +50,7 @@ $zz = $y*$z;
 
    #    4Dimensional  6Dimensional
  +points3d[$x,$y,$z],   [$b,$g,$r]; ## electron 
-#+points3d[$x*$b,$y*$g,$z*$r],   [$b,$g,$r]; ## 6 Dimensional electron 
+#+points3d[$x*$b,$y*$g,$z*$r],   [$b,$g,$r]; ## 6th Dimensional electron 
 
 $light = 299792458;
   $radius = sum(sqrt(($x**2)+($y**2)+($z**2)));
