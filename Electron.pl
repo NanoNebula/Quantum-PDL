@@ -16,7 +16,8 @@ $PDL::BIGPDL=1; ## remember this can crash the computer if you dont have enough 
 ###           that make up a particle. 
 
 
- for $c(400..40000){
+ for (;;){
+     $c = 400;
  for $phase(1..360) {
  $phase = $phase*0.0000001;
  $frequency = ($c**-1);
