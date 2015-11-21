@@ -8,6 +8,9 @@
 ##      in other words get the right amount of photons to match the right values, think about scaling properly 
 ##      so that RAM is conserved !
 
+## 1.2 Confirm That 2760 is the right amount of photons that make up the Electron, and that Quantum Gravity 
+##     is Distorts Space at [hbar Photons] within a "particle" and 
+##     regular [Space] "is not Distorted" [ Planck Constant h ] when photons are not in a particle 
     
 
 ### 2. Get all energy levels based on the "quantum numbers", and the orbit energy levels of all atoms.
@@ -58,7 +61,7 @@
 ## 16. Get the electronics for the spectrograph complete to integrate into the computer threw 
 ##     ethernet and usbs. 
 
-## 17. Confirm the "virtual Quantum microscope" -> NanoNebula is working properly 
+## 17. Confirm the "Virtual Quantum Microscope" -> NanoNebula is working properly 
 
 ## 18. Add in API application to create molecules from atoms, from easy to use application 
 
