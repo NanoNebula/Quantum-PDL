@@ -29,7 +29,7 @@ $PDL::BIGPDL=1; ## remember this can crash the computer if you dont have enough 
 ###           (which is really 3 [angles] in x y z and 3 [angles] in b g r)
 ###           that describes the dynamic vector geometry of the "photon(s)/(String(s))" 
 ###           that make up a particle. " I say this cause I think strings are made from photons 
-###                                       spinning in circles making strings "
+###                                       spinning in circles making closed looped strings "
 
 
  for (;;){
