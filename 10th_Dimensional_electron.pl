@@ -5,6 +5,8 @@
 ### Im building the dimensions by hand to try to get this right ...
 ### using the two I think I can narrow down to the right dimensions for the formula's
 ### I will upload the Matrix Dimensions piddle as soon as I get done ...
+### allthough it looks close really, you have to do this nonvisually " Dimensionally "
+### to make sure it's right.
 
 ## 10th Dimensional electron
 
