@@ -1,9 +1,9 @@
 
 ### note the dimensions below could be very wrong !!!
-### [Density] could be wrong better to tink of it as [photon Density]
+### [Density] could be wrong, better to think of it as [photon Density]
 ###  and it could still be wrong 
 ### Im building the dimensions by hand to try to get this right ...
-### using the two I think I can narrow down to the right dimensions
+### using the two I think I can narrow down to the right dimensions for the formula's
 ### I will upload the Matrix Dimensions piddle as soon as I get done ...
 
 ## 10th Dimensional electron
