@@ -9,7 +9,7 @@ Starting with the simple part of Quantum Mechanics based on the "Heisenberg Unce
 A Mathematical Refinement of this can now be achived with present day computer systems, and it 
 is my goal to determine a way to find the "momentum" from the "position" useing the matrix geometry.
 
-Particles can be thought of as being made by photons according to E=mc**2, using the Photon Positions
+Particles can be thought of as being made by photons according to m = Ec**-2, using the Photon Positions
 and there relation to each other there distance and values to describe measurable dimensions and
 Unmeasurable dimensions, of the particle in the matrix, we want to determine not just the 
 momentum, yet everything (every dimension) from the position.
