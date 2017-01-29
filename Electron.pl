@@ -93,5 +93,5 @@ $light = 299792458;
 
 } } 
 
-### Working on the Extra-Dimensional Telemetry and the Quantum Fluctuations 
+### Working on the                               and the Quantum Fluctuations 
 
