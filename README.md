@@ -12,7 +12,7 @@ is my goal to determine a way to find the "momentum" from the "position" useing 
 Particles can be thought of as being made by photons according to m = Ec**-2, using the Photon Positions
 and there relation to each other there distance and values to describe measurable dimensions and
 Unmeasurable dimensions, of the particle in the matrix, we want to determine not just the 
-momentum, yet everything (every dimension) from the position.
+momentum, yet everything (every dimension) from the Geometry of the position.
 
 
 
