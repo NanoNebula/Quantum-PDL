@@ -29,7 +29,7 @@ $PDL::BIGPDL=1;
  $r=cos($cy+$c+$cz);
  $b=cos($w);
  $i=($cz-$cx-$cy);
-  $q=$c*($i*$n);
+  $q=$c*($i*$n);  ## $n = (6.28*$c*$frequency+($phase)))
 
 ### altitude longitude latitude 
 $x = $b*sin($q);  ### cos   change the spin of the electron here
