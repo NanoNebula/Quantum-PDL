@@ -9,13 +9,15 @@ $PDL::BIGPDL=1;
 
 
  for (;;){
-     $c = 400;
- for $phase(1..360) {
- $phase = $phase*0.0000001;
- $frequency = ($c**-1);
+     $c = 400;                          ###  how is this effected by other particles
+ for $phase(1..360) {                  ###  how is this effected by other particles     
+ $phase = $phase*0.0000001;   
+ $frequency = ($c**-1);                ###  how is this effected by other particles
  $n= (6.28*$c*$frequency+($phase));
 
  $photons = 4178; ### [Density] 2444 4178
+ ### how does energy effect the number of photons here 
+ ###  how is this effected by other particles
 
  
  $t=(-1**.5)*rvals(exp(zeros($photons)),{Centre=>[0]});
