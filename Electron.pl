@@ -30,6 +30,7 @@ $PDL::BIGPDL=1;
  $b=cos($w);
  $i=($cz-$cx-$cy);
   $q=$c*($i*$n);  ## $n = (6.28*$c*$frequency+($phase)))
+  ### normal transform-> A sin(6.28*t*f+phase)
 
 ### altitude longitude latitude 
 $x = $b*sin($q);  ### cos   change the spin of the electron here
@@ -63,7 +64,8 @@ $z = $g*sin($q);  ### cos
   print $time, " time = h/(mc**2) ","\n";      ## planck constant / mass*light^2
   print $current," current = Q/t ","\n","\n";; ## charge/time
 
-  print $phase," Phase A sin(6.28*t*f+phase) ","\n";
+  print $phase," normal transform-> A sin(6.28*t*f+phase) ","\n";
+  ### amplitude sin(2*pi*time*frequency+phase) 
 
 
    
