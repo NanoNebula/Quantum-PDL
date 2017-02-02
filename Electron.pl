@@ -66,17 +66,6 @@ $z = $g*sin($q);  ### cos
   print $phase," Phase A sin(6.28*t*f+phase) ","\n";
 
 
-
-
-
-
-
-
-
-
-
-  
- 
    
 ######################################################################################################## 
   #$uu = ($x*$y*$z);
@@ -90,6 +79,9 @@ $z = $g*sin($q);  ### cos
 
 
 } } 
+
+## Now we need to work on how energy effects the Electron it's mass length time current frequency phase ..
+## and how adding photons does this ..
 
 
 ### neglecting the remainder here 
