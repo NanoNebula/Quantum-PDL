@@ -53,15 +53,15 @@ $z = $g*sin($q);  ### cos
   $time = ($planck / ($mass * ($light**2)));
   $current = (-1.6021766)*((10)**-19)/ $time;
 
-  print $photons," n photons ","\n";
+  print $photons," number photons ","\n";
   print $light," speed of light constant ??? ","\n";
   print $planck," plancks constant ??? ","\n";
   print $charge," charge constant ??? ","\n","\n";
   
-  print $mass," mass = h/(lc) ","\n";
-  print $diameter, " length = h/(mc) ","\n";
-  print $time, " time = h/(mc**2) ","\n";
-  print $current," current = Q/t ","\n","\n";;
+  print $mass," mass = h/(lc) ","\n";          ## planck constant / length*light
+  print $diameter, " length = h/(mc) ","\n";   ## planck constant / mass*light
+  print $time, " time = h/(mc**2) ","\n";      ## planck constant / mass*light^2
+  print $current," current = Q/t ","\n","\n";; ## charge/time
 
   print $phase," Phase A sin(6.28*t*f+phase) ","\n";
 
