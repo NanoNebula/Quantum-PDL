@@ -1,14 +1,5 @@
 
-### note the dimensions below could be very wrong !!!
-### [Density] could be wrong, better to think of it as [photon Density]
-###  and it could still be wrong 
-### Im building the dimensions by hand to try to get this right ...
-### using the two I think I can narrow down to the right dimensions for the formula's
-### I will upload the Matrix Dimensions piddle as soon as I get done ...
-### allthough it looks close really, you have to do this nonvisually " Dimensionally "
-### to make sure it's right.
 
-## 10th Dimensional electron
 
 use PDL;
 use PDL::Graphics::TriD;
@@ -18,18 +9,7 @@ use PDL::Math;
 
 $PDL::BIGPDL=1; ## remember this can crash the computer if you dont have enough swap in linux or pagefile in windows
                 ## remember to press q in the GLUT screen to see the animation step by step
-
-### QPD  Quantum Photonic Dynamics
-### QPD::Math uses 4 transcendental [angle] 4Dimensional equations
-###           and  6 transcendental [angle] 6Dimensional equations
-###           To describe the geometry of the electron 
-###           not 2 [angles] and 1 [length] like the Spherical Coordinates system
-###           not 3 [lengths] like the  Cartesian coordinate system
-###           10 Transendental [angles] in a 3 [length]  Cartesian coordinate system
-###           (which is really 3 [angles] in x y z and 3 [angles] in b g r)
-###           that describes the dynamic vector geometry of the "photon(s)/(String(s))" 
-###           that make up a particle. " I say this cause I think strings are made from photons 
-###                                       spinning in circles making closed looped strings "
+                ##                spinning in circles making closed looped strings "
 
 
  for (;;){
@@ -49,7 +29,6 @@ $PDL::BIGPDL=1; ## remember this can crash the computer if you dont have enough 
  $cy= -1**$t*sin($t*$c);  ###   $t*sin($t*$c); 
  $cx= -1**$c*bessj0(rvals($t,{Centre=>[0]}))*$c;  ### $c*bessj0(rvals($t,{Centre=>[0]}))*$c;
  
- ### 6Dimensional Geometry
  $w=$cz-$cy-$cx;
  $g=sin($w);
  $r=cos($cy+$c+$cz);
@@ -151,4 +130,4 @@ $light = 299792458;
 
 } } 
 
-### Working on the                        and the Quantum Fluctuations 
+ 
