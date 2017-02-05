@@ -66,7 +66,7 @@ $z = $g*sin($q);  ### cos
   
   print $mass," mass = h/(lc) ","\n";
   print $length, " length = h/(mc) ","\n";
-  print $time, " time = h/(mc**2) ","\n";
+  print $time, " time = h/(mc**2) = 1/frequency ","\n";
   print $current," current = Q/t = volts/ohms ","\n","\n";;
 
   print $phase," remember = Amplitude * sin(6.28*time*frequency+phase) ","\n";
