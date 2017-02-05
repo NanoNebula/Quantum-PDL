@@ -71,11 +71,16 @@ $z = $g*sin($q);  ### cos
 
   print $phase," remember = Amplitude * sin(6.28*time*frequency+phase) ","\n";
 
+ ## mass    = [M]
+ ## length  = [L]
+ ## time    = [T]
+ ## current = [I]
 
- ##    voltage = [M] * [L**2] * [T-**3] * [I**-1]
-##  resistance = [M] * [L**2] * [T-**2] * [I**-2]
+ ##    voltage = [M] * [L**2] * [T**-3] * [I**-1]
+##  resistance = [M] * [L**2] * [T**-2] * [I**-2]
 ## capacitance = [M**-1] * [L**-2] * [T**4] * [I**2]
 ##  inductance = [M] * [L**2] * [T**-2] * [I**-2]
+## Q = charge = [T] * [I]
   
  
    
