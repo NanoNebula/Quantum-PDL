@@ -77,12 +77,15 @@ $z = $g*sin($q);  ### cos
  ## current = [I] = amps
 
  ##    voltage = [M] * [L**2] * [T**-3] * [I**-1] = volts
-##  resistance = [M] * [L**2] * [T**-2] * [I**-2] = ohms
+##  resistance = [M] * [L**2] * [T**-3] * [I**-2] = ohms
 ## capacitance = [M**-1] * [L**-2] * [T**4] * [I**2] = farad
 ##  inductance = [M] * [L**2] * [T**-2] * [I**-2] = henrys
 ## Q = charge  = [T] * [I] = coulombs
 ## h = plancks constant
 ## c = speed of light = [L] * [T**-1]
+
+
+  ### volts * farads = [T] * [I] = charge
   
   ###    volts          [M]       [L**2]    [T**-3]   [I**-1]
   ###      *   =   +    [M**-1]   [L**-2]   [T**4]    [I**2]    
@@ -90,8 +93,11 @@ $z = $g*sin($q);  ### cos
   ###                   [M**0]    [L**0]    [T**1]    [I**1] 
   
   
- ### volts / ohms = amps
- ### volts * farads = [T] * [I] = charge  
+  ### volts / ohms = amps
+  ###    volts        [M]     [L**2]    [T**-3]   [I**-1]
+  ###      /   =   -  [M]     [L**2]    [T**-3]   [I**-2]    
+  ###    omhs         ------- -------   ------    ------
+  ###                 [M**0]  [L**0]    [T**0]    [I**1] 
    
 ######################################################################################################## 
   #$uu = ($x*$y*$z);
