@@ -19,8 +19,7 @@ $PDL::BIGPDL=1;
  $photons = 4178; ### [Density] 2444 4178
      ## still looking for the proper way to check this ...
      ## if these are the real amount of space tetrahedons that make up the electron
-     ## the mass reduction equation might not be enough here
-     ## It's not enough for the Protons and Neutrons of the Nucleon(s) either 
+     
 
  
  $t=(-1**.5)*rvals(exp(zeros($photons)),{Centre=>[0]});
