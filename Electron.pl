@@ -84,6 +84,12 @@ $z = $g*sin($q);  ### cos
 ## h = plancks constant
 ## c = speed of light = [L] * [T**-1]
   
+  ###    volts          [M] * [L**2] * [T**-3] * [I**-1]
+  ###      *      =     [M**-1] * [L**-2] * [T**4] * [I**2]    
+  ###    farads       + ------------------------------------
+  ###                      0        0        1         1 
+  
+  
  ### volts / ohms = amps
  ### volts * farads = [T] * [I] = charge  
    
