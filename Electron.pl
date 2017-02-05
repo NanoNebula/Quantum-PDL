@@ -56,7 +56,7 @@ $z = $g*sin($q);  ### cos
   $current = (-1.6021766)*((10)**-19)/ $time;
   $charge2 = $current*$time;
 
-  print $photons," n photons ","\n";
+  print $photons," number photons ","\n";
   print $light," speed of light constant ??? ","\n";
   print $planck," plancks constant ??? ","\n";
   print $charge," charge constant ??? ","\n","\n";
