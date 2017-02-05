@@ -82,6 +82,7 @@ $z = $g*sin($q);  ### cos
 ##  inductance = [M] * [L**2] * [T**-2] * [I**-2]
 ## Q = charge  = [T] * [I]
 ## h = plancks constant
+## c = speed of light
   
  
    
