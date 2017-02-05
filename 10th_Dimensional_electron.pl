@@ -19,7 +19,7 @@ $PDL::BIGPDL=1; ## remember this can crash the computer if you dont have enough 
  $frequency = ($c**-1);
  $n=6.28*$c*$frequency+($phase);
 
- $photons = 2444; ### [Density]
+ $photons = 4178; ### [Density]
 
  ### 4Dimensional Geometry
  $t=(-1**.5)*rvals(exp(zeros($photons)),{Centre=>[0]});
