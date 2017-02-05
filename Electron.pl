@@ -82,7 +82,7 @@ $z = $g*sin($q);  ### cos
 ##  inductance = [M] * [L**2] * [T**-2] * [I**-2] = henrys
 ## Q = charge  = [T] * [I] = coulombs
 ## h = plancks constant
-## c = speed of light
+## c = speed of light = [L] * [T**-1]
   
  ### volts / ohms = amps
  ### volts / farads = time = 1/time = frequency
