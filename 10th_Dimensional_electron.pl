@@ -9,7 +9,7 @@ use PDL::Math;
 
 $PDL::BIGPDL=1; ## remember this can crash the computer if you dont have enough swap in linux or pagefile in windows
                 ## remember to press q in the GLUT screen to see the animation step by step
-                ##                spinning in circles making closed looped strings "
+                ##         
 
 
  for (;;){
