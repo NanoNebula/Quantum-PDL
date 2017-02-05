@@ -10,9 +10,9 @@ $PDL::BIGPDL=1;
   $phonons = 4178;
 
  for (;;){
-  $c = (400) ;
+  $c = (400) ; ## speed
  for $phase(1..360) {  ## 360
- $phase = $phase*0.0000001; ## speed 
+ $phase = $phase*0.0000001; 
  $frequency = ($c**-1);
  $n= (6.28*$c*$frequency+($phase));
 
