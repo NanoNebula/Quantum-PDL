@@ -100,7 +100,7 @@ $z = $g*sin($q);  ### cos
   ###    omhs         ------- -------   ------    ------
   ###                 [M**0]  [L**0]    [T**0]    [I**1] 
   
-  
+  ### ((volts * farads) / (volts / omhs ) =  ([T]*[I]) - ([I]) =  [T] = 1 / time =  [T**-1] = frequency
   
   
   
