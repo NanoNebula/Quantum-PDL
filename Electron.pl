@@ -12,7 +12,7 @@ $PDL::BIGPDL=1;
  for (;;){
   $c = (400) ;
  for $phase(1..360) {  ## 360
- $phase = $phase*0.0000001;
+ $phase = $phase*0.0000001; ## speed 
  $frequency = ($c**-1);
  $n= (6.28*$c*$frequency+($phase));
 
@@ -69,7 +69,7 @@ $z = $g*sin($q);  ### cos
   print $time, " time = h/(mc**2) ","\n";
   print $current," current = Q/t ","\n","\n";;
 
-  print $phase," remember = Amplitude sin(6.28*time*frequency+phase) ","\n";
+  print $phase," remember = Amplitude * sin(6.28*time*frequency+phase) ","\n";
 
 
  ##    voltage = [M] * [L**2] * [T-**3] * [I**-1]
