@@ -71,9 +71,9 @@ $z = $g*sin($q);  ### cos
 
   print $phase," remember = Amplitude * sin(6.28*time*frequency+phase) ","\n";
 
- ## mass    = [M] = m
- ## length  = [L] = l
- ## time    = [T] = t
+ ## mass    = [M] = m = kilograms
+ ## length  = [L] = l = meters
+ ## time    = [T] = t = seconds
  ## current = [I] = amps
 
  ##    voltage = [M] * [L**2] * [T**-3] * [I**-1] = volts
