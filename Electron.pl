@@ -46,10 +46,10 @@ $z = $g*sin($q);  ### cos
 
   $radius = sum(sqrt(($x**2)+($y**2)+($z**2)));
   print $radius," radius ","\n";
-  $diameter = ($radius+$radius)**-3; 
+  $length = ($radius+$radius)**-3; 
   $charge = (-1.6021766)*((10)**-19);
   $light = 299792458;
-  $len = ($diameter * $light);
+  $len = ($length * $light);
   $planck = (6.62607)*((10)**-34) ;
   $mass = ($planck / $len);
   $time = ($planck / ($mass * ($light**2)));
@@ -65,7 +65,7 @@ $z = $g*sin($q);  ### cos
   
   
   print $mass," mass = h/(lc) ","\n";
-  print $diameter, " length = h/(mc) ","\n";
+  print $length, " length = h/(mc) ","\n";
   print $time, " time = h/(mc**2) ","\n";
   print $current," current = Q/t ","\n","\n";;
 
