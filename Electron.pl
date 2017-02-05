@@ -7,7 +7,8 @@ use PDL::Math; keeptwiddling3d;
 $PDL::BIGPDL=1;
  ## remember this can crash the computer if you dont have enough RAM and swap in linux or pagefile in windows
 
-  #$phonons = 4178;
+  # next part [main] part the field of the electron
+  #$phonons = 4178; 
 
  for (;;){
   $c = (400) ; ## speed
