@@ -17,6 +17,10 @@ $PDL::BIGPDL=1;
  $n= (6.28*$c*$frequency+($phase));
 
  $photons = 4178; ### [Density] 2444 4178
+     ## still looking for the proper way to check this ...
+     ## if these are the real amount of space tetrahedons that make up the electron
+     ## the mass reduction equation might not be enough here
+     ## It's not enough for the Protons and Neutrons of the Nucleon(s) either 
 
  
  $t=(-1**.5)*rvals(exp(zeros($photons)),{Centre=>[0]});
@@ -70,17 +74,6 @@ $z = $g*sin($q);  ### cos
   print $current," current = Q/t ","\n","\n";;
 
   print $phase," Phase A sin(6.28*t*f+phase) ","\n";
-
-
-
-
-
-
-
-
-
-
-
   
  
    
@@ -99,7 +92,7 @@ $z = $g*sin($q);  ### cos
 
 
 
-## electron charge -1.6021766×10^-19 C (coulombs)  TI
+## electron charge -1.6021766×10^-19 C (coulombs)  T I
 ## Force F between like charges 1 cm apart from F = Q^2/(4πϵ_0r^2):
 ## 2.3×10^-24 N (newtons)
 ## Current I caused by the charge flowing in one second from I = Q/t:
