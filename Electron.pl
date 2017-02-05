@@ -67,7 +67,7 @@ $z = $g*sin($q);  ### cos
   print $mass," mass = h/(lc) ","\n";
   print $length, " length = h/(mc) ","\n";
   print $time, " time = h/(mc**2) ","\n";
-  print $current," current = Q/t ","\n","\n";;
+  print $current," current = Q/t = volts/ohms ","\n","\n";;
 
   print $phase," remember = Amplitude * sin(6.28*time*frequency+phase) ","\n";
 
@@ -76,11 +76,11 @@ $z = $g*sin($q);  ### cos
  ## time    = [T] = t
  ## current = [I] 
 
- ##    voltage = [M] * [L**2] * [T**-3] * [I**-1]
-##  resistance = [M] * [L**2] * [T**-2] * [I**-2]
-## capacitance = [M**-1] * [L**-2] * [T**4] * [I**2]
-##  inductance = [M] * [L**2] * [T**-2] * [I**-2]
-## Q = charge  = [T] * [I]
+ ##    voltage = [M] * [L**2] * [T**-3] * [I**-1] = volts
+##  resistance = [M] * [L**2] * [T**-2] * [I**-2] = ohms
+## capacitance = [M**-1] * [L**-2] * [T**4] * [I**2] = farad
+##  inductance = [M] * [L**2] * [T**-2] * [I**-2] = henrys
+## Q = charge  = [T] * [I] = coulombs
 ## h = plancks constant
 ## c = speed of light
   
