@@ -102,7 +102,7 @@ $z = $g*sin($q);  ### cos
   
   ### ((volts * farads) / (volts / omhs )) =  ([T]*[I]) - ([I]) =  [T] = 1 / time =  [T**-1] = frequency
   
-  ### speed of light / frequency = [L] = ($radius+$radius) = Length  
+  ### speed of light / frequency = [L] = ($radius+$radius)  
   ###  [L] * [T**-1] / [T**-1] = Length
   
   
