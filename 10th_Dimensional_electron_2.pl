@@ -90,31 +90,41 @@ $zz = $y*$z;
 
    
   
+ 
   
-
-
-$light = 299792458;
   $radius = sum(sqrt(($x**2)+($y**2)+($z**2)));
-  $length = 2*(($radius*2)**-4); ## Wrong !!!
-  $mass = (($radius**3)**-3);
-  $energy = $mass*($light**2);
-  $time = ($energy/($mass*$radius*$radius));
-  $time = (($time)**-2)+(($time)**-2)+(($time)**-2);
-  $length2 = sqrt($energy/($mass/($time*$time)));  ## Right !!!
-  $velocity = $length2*($time**-1);
-  $acceleration = $length2*($time**-2);
-  $force = $mass*$acceleration;
+  print $radius," radius ","\n";
+  $length = ($radius+$radius)**-3; 
+  $charge = (-1.6021766)*((10)**-19);
+  $light = 299792458;
+  $len = ($length * $light);
+  $planck = (6.62607)*((10)**-34) ;
+  $mass = ($planck / $len);
+  $time = ($planck / ($mass * ($light**2)));
+  $current = (-1.6021766)*((10)**-19)/ $time;
+  $charge2 = $current*$time;
 
- print "[",($radius*2)**-4,"]","  Radius Meters","\n";
- print "[",$time,"]","  Time Seconds","\n";  
- print "[",$length,"]","  Length Meters<- wrong Length","\n";
- print "[",$length2,"]","  Length Meters<- right Length","\n";
- print "[",$mass,"]","    Mass KiloGrams","\n";
- print "[",$energy,"]","   "," Energy Joule Seconds","\n";
- print "[".$velocity,"]","    "," Velocity Meters","\n";
- print "[".$acceleration,"]","    "," Acceleration Meters per second/per second","\n";
- print "[",$force,"]","   ","  Force","\n"; 
- print "\n";
+  print $photons," n photons ","\n";
+  print $light," speed of light constant ??? ","\n";
+  print $planck," plancks constant ??? ","\n";
+  print $charge," charge constant ??? ","\n","\n";
+  print " charge should be constant here ","\n";
+  print $charge2," this should be constant ","\n";
+  
+  
+  print $mass," mass = h/(lc) ","\n";
+  print $length, " length = h/(mc) ","\n";
+  print $time, " time = h/(mc**2) ","\n";
+  print $current," current = Q/t ","\n","\n";;
+
+  print $phase," remember = Amplitude * sin(6.28*time*frequency+phase) ","\n";
+
+
+ ##    voltage = [M] * [L**2] * [T-**3] * [I**-1]
+##  resistance = [M] * [L**2] * [T-**2] * [I**-2]
+## capacitance = [M**-1] * [L**-2] * [T**4] * [I**2]
+##  inductance = [M] * [L**2] * [T**-2] * [I**-2]
+
 
         #  4Dimensional     6Dimensional
  #points3d[$xx,$yy,$zz],[$g*$b,$r*$g,$b*$r]; ## Hbar geometry
