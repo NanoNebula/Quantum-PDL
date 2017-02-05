@@ -69,7 +69,7 @@ $z = $g*sin($q);  ### cos
   print $time, " time = h/(mc**2) ","\n";
   print $current," current = Q/t ","\n","\n";;
 
-  print $phase," Phase A sin(6.28*t*f+phase) ","\n";
+  print $phase," remember = Amplitude sin(6.28*time*frequency+phase) ","\n";
 
 
  ##    voltage = [M] * [L**2] * [T-**3] * [I**-1]
