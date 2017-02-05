@@ -85,7 +85,7 @@ $z = $g*sin($q);  ### cos
 ## c = speed of light = [L] * [T**-1]
   
  ### volts / ohms = amps
- ### volts * farads = time = 1 / time = frequency  
+ ### volts * farads = [T] * [I] = charge  
    
 ######################################################################################################## 
   #$uu = ($x*$y*$z);
