@@ -105,7 +105,7 @@ $z = $g*sin($q);  ### cos
   ### speed of light / frequency = [L] = ($radius+$radius) = WaveLength  
   ###  [L] * [T**-1] / [T**-1] = Length = [L] 
   
-   
+   ### If we can measure the wavelength of the particle we can calculate the [M][L][T][I]
   
   
    
