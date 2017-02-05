@@ -86,7 +86,7 @@ $z = $g*sin($q);  ### cos
 ## c = speed of light = [L] * [T**-1]
 
 
-  ### volts * farads = [T] * [I] = charge - Q
+  ### volts * farads = [T] * [I] = charge = Q
   
   ###    volts          [M]       [L**2]    [T**-3]   [I**-1]
   ###      *   =   +    [M**-1]   [L**-2]   [T**4]    [I**2]    
