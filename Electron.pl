@@ -74,7 +74,7 @@ $z = $g*sin($q);  ### cos
  ## mass    = [M] = m
  ## length  = [L] = l
  ## time    = [T] = t
- ## current = [I] 
+ ## current = [I] = amps
 
  ##    voltage = [M] * [L**2] * [T**-3] * [I**-1] = volts
 ##  resistance = [M] * [L**2] * [T**-2] * [I**-2] = ohms
@@ -84,7 +84,7 @@ $z = $g*sin($q);  ### cos
 ## h = plancks constant
 ## c = speed of light
   
- 
+ ### volts / ohms = amps
    
 ######################################################################################################## 
   #$uu = ($x*$y*$z);
