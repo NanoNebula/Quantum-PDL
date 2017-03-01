@@ -106,6 +106,9 @@ $z = $g*sin($q);  ### cos
   ###  [L] * [T**-1] / [T**-1] = Length = [L] 
   
    ### If we can measure the wavelength of the Particle or Nucleon or Molecule we can calculate the [M][L][T][I]
+   ### We also want to get the position
+   ### so can we get the position and the wavelength of the particle ???
+   ### can Graphene NanoTechnology help us to make and sense Gravity Waves to do this ???
   
   
    
